@@ -1,0 +1,7 @@
+# WAP to Find Sum Of Digits Of a Number
+
+num= input("Enter a number:")
+sum =0
+for i in num:
+   sum =sum+int(i)
+print("Sum of digits of a number",sum)

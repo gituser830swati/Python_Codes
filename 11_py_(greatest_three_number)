@@ -1,0 +1,13 @@
+# WAP to find greatest three number.
+
+a=int(input("Enter the first num.:"))
+b=int(input("Enter the second num.:"))
+c=int(input("Enter the  third num.:"))
+if a>b and a>c:
+    print("Greatest num",a)
+elif b>a and b>c:
+    print("Greatest num",b)
+elif b==a==c:
+    print("Equal num",b)
+else:
+    print("Greatest num",c)

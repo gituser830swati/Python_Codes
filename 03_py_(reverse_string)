@@ -1,0 +1,4 @@
+# WAP to reverse a string
+
+n= str(input("Enter the number:"))
+print(n[:: -1])

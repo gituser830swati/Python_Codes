@@ -1,0 +1,8 @@
+# WAP to find Power of a number
+
+n= 3
+power= 3
+m=1
+for i in range(power):
+   m*=n
+print("Power",m)

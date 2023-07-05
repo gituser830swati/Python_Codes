@@ -1,0 +1,12 @@
+# Check Whether or Not the Number is an Abundant Number in Python
+
+num=int(input("Enter the num:"))
+sum=0
+
+for i in range(1,num):
+    if num%i==0:
+        sum=sum+i
+if sum>num:
+    print(f"{num} It's an abundant number")
+else:
+    print(f"{num} It's not an abundant number")

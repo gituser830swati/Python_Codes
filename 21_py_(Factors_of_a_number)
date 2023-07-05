@@ -1,0 +1,9 @@
+#  Python program to find factors of a number.
+#  100 = 1 2 4 5 10 20 25 50 100
+
+num= int(input("Enter a number:"))
+for i in range(2, num+1):
+   if num<0:
+      print("sorry no factor")
+   elif num%i==0:
+      print("the factor of",num,"is",i)

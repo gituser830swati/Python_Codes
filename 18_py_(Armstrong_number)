@@ -1,0 +1,10 @@
+# WAP to print Armstrong number
+
+num = str(input("Enter a number:"))
+sum = 0
+for i in num:
+   sum+=int(i)**3
+if sum==int(num):
+   print("Armstrong number")
+else:
+   print("Not Armstrong Number")

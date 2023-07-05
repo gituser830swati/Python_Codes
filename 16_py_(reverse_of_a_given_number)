@@ -1,0 +1,5 @@
+# WAP to find the Reverse of a given number​
+
+n= int(input("Enter a number:"))
+print(str(n)[::-1])
+

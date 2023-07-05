@@ -1,0 +1,8 @@
+# WAP to Find a Number is Palindrome or not
+
+n = int(input("Enter a number:"))
+reverse = int(str(n)[::-1])
+if n == reverse:
+   print("Palindrome")
+else:
+   print("Non Palindrome")

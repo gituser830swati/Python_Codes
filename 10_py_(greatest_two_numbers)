@@ -1,0 +1,6 @@
+n=int(input("Enter a first number:"))
+m=int(input("Enter a second number:"))
+if n>m:
+    print("Greater no.",n)
+else:
+    print("Greater no.",m)
